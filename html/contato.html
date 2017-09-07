@@ -1,0 +1,95 @@
+<h1> Contato </h1>
+
+<form>
+  <p> Nome: <input type="text" name="nome" size="20" maxlength="30"/>
+  </p>
+
+  <p> Mensagem:   </p>
+  <textarea name="mensagem" cols="40" rows="10"> Escreva sua mensagem </textarea>
+
+  <p> Escolah seu cargo: </p>
+   <input type="radio" name="cargo" value="Desenvolvedor" checked="checked"> Desenvolvedor
+   <input type="radio" name="cargo" value="Analista" > Analista
+   <input type="radio" name="cargo" value="Gerente de projetos" > Gerente de projetos
+
+
+   <p> Que salário gostaria de receber
+    <input type="checkbox" name="salario" value="De 0 a 500" checked="checked"> De 0 a 500
+    <input type="checkbox" name="salario" value="De 0 a 500"> De 500 a 1000
+      <input type="checkbox" name="salario" value="De 0 a 500"> De 1000 a 1500
+      </p>
+
+      <p> Demostração caixa de lista suspensa </p>
+        <select name="dispositivos">
+          <option value="Computador">Computador</option>
+          <option value="Celular" selected="selected">Celular</option>
+          <option value="Relógio">Relógio</option>
+          <option value="Tablet">Tablet</option>
+        </select>
+
+        <p> Demostração de Caixa de Entrada de Arquivo </p>
+        <form action="index.html" method="post">
+          <input type="file" name="file-user" /></br>
+          <input type="submit" value="Enviar Arquivo"/>
+        </form>
+
+        <p> Demostração de Botão Enviar</p>
+        <input type="text" name="sugestao" size="25" maxlength="25"/>
+        <input type="button" name="btn_enviar" value="Enviar"/>
+
+        <p> Demostração de Botão Enviar com imagem</p>
+        <input type="text" name="sugestao" size="25" maxlength="25"/>
+        <input type="image" src="images/botaoenviar_icon.png" width="100" height="30"/>
+
+        <p> Demostração de Botão Enviar com texto e imagem</p>
+        <input type="text" name="sugestao" size="25" maxlength="25"/>
+        <button> <img src="images/botaoenviar_icon.png" alt=add width="80" height="25"/> Nuvem </button>
+
+        <p> Demostração de Botão Enviar com texto e imagem com controle oculto</p>
+        <input type="text" name="sugestao" size="25" maxlength="25"/>
+        <button> <img src="images/botaoenviar_icon.png" alt=add width="80" height="25"/> Nuvem </button>
+        <input type="hidden" name="nuvem" value="arquivo"/>
+
+        <p> Demostração de controle de formulário com Label e for</p>
+        <label> Tipo de sugestão </label>
+        <input id="critica_contrutiva" type="radio" name="tipo_sugestao" value="cc"/>
+        <label for="critica_contrutiva"> Crítica Construtiva </label>
+        <input id="opiniao" type="radio" name="tipo_sugestao" value="op"/>
+        <label for="opiniao"> Opinião </label>
+
+        <p> Formulário com elementos agrupados</p>
+          <fieldset>
+            <legend> Detalhes de Contato </legend>
+            <label> Email:<br/>
+              <input type="text" name="email" /></label><br/>
+            <label> Telefone: <br/>
+              <input type="text" name="telefone" /></label><br/>
+            <label> Celular: <br/>
+              <input type="text" name="celular" /></label><br/>
+            </fieldset>
+
+              <p> Validação de Formulário</p>
+              <form>
+                <label for="usuario">Usuário:</label>
+                  <input type="text" name="usuario" required="required"/><br/>
+                <label for="senha">Senha:</label>
+                  <input type="password" name="senha" required="required"/><br/>
+                  <input type="submit" value="Entrar" />
+              </form>
+
+                <p> Entrada de datas</p>
+                <form>
+                  <label for="date"> Data de Nascimento </label>
+                  <input type="date" name="depart" />
+                  <input type="submit" value="Selecionar">
+                </form>
+
+                <p> Entrada de Pesquisa</p>
+                <form>
+                  <label for="pesquisa"> Pesquisa </label>
+                  <input type="search" name="search" placeholder="Digite a pesquisa aqui"/>
+                  <input type="submit" value="Pesquisar">
+                </form>
+
+
+</form>
