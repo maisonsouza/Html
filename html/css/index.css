@@ -1,0 +1,40 @@
+h1{
+
+    background: -webkit-linear-gradient(top,#CD853F,#CC6600);
+    background: -moz-linear-gradient(top,#CD853F,#CC6600);
+    padding-left: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+h2{
+  background:-webkit-linear-gradient(top,#CD853F,#CC6600 30%);
+  background:-moz-linear-gradient(top,#CD853F,#CC6600 30%);
+  background:linear-gradient(top,#CD853F,#CC6600 30%);
+  padding-left: 15px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+body{
+  background: oldlace;
+  font: Arial;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+  width: 350px;
+}
+
+#foto{
+  text-align: center;
+}
+
+figure{
+  background: #FFFAFA;
+  width: 450px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.7);
+  -webkit-transform:rotate(-5deg)
+}
