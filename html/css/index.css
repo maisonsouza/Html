@@ -22,6 +22,12 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+
+p{
+  text-indent: 30px;
+  text-align:justify;
+
+}
 img{
   width: 350px;
 }
@@ -33,8 +39,11 @@ img{
 figure{
   background: #FFFAFA;
   width: 450px;
-  text-align: center;
   padding: 10px;
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.7);
-  -webkit-transform:rotate(-5deg)
+  -webkit-transform:rotate(-5deg);
+}
+
+figure:hover{
+  -webkit-transform:rotate(5deg);
 }
