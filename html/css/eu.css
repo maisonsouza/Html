@@ -2,11 +2,12 @@ h1{
 
     background: -webkit-linear-gradient(top,#CD853F,#CC6600);
     background: -moz-linear-gradient(top,#CD853F,#CC6600);
-    padding-left: 15px;
+    text-align: center;
     border-radius: 15px;
     border: 1px solid black;
 }
-h2{
+h2,h3,h4{
+  text-align: center;
   background:-webkit-linear-gradient(top,#CD853F,#CC6600 30%);
   background:-moz-linear-gradient(top,#CD853F,#CC6600 30%);
   background:linear-gradient(top,#CD853F,#CC6600 30%);
@@ -18,13 +19,16 @@ h2{
 body{
   background: oldlace;
   font: Arial;
+  font-size: 16px;
   width: 940px;
   margin-left: auto;
   margin-right: auto;
 }
 
-p{
-  text-indent: 30px;
+p {
+  text-indent: 10px;
+  line-height: 125%;
+  font-size: 115%;
   text-align:justify;
 
 }
@@ -46,4 +50,8 @@ figure{
 
 figure:hover{
   -webkit-transform:rotate(5deg);
+}
+
+cite{
+  text-indent: 5px;
 }
