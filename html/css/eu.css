@@ -1,54 +1,54 @@
 h1{
-    background: -webkit-linear-gradient(top,#CD853F,#CC6600);
-    background: -moz-linear-gradient(top,#CD853F,#CC6600);
-    background:linear-gradient(top,#CD853F,#CC6600);
+    font-size:1.9em;
+    color: #fff;
+    background:#32a7e5;
     text-align: center;
     border-radius: 15px;
     border: 1px solid black;
     padding: 5px;
+    word-spacing: 1em;
 }
 
-h2,h3{
+h2{
+  font-size:1.7em;
+  color: #fff;
   text-align: center;
-  background:-webkit-linear-gradient(top,#CD853F,#CC6600 40%);
-  background:-moz-linear-gradient(top,#CD853F,#CC6600 40%);
-  background:linear-gradient(top,#CD853F,#CC6600 40%);
+  background:#32a7e5;
   padding-left: 15px;
   border-radius: 15px;
   border: 1px solid black;
+    word-spacing: 1em;
 }
 
 body{
   text-indent: 10px;
-  background: ivory;
+  background: #fff
   font: Arial;
   font-size: 16px;
-  width: 80%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 
 p {
+  line-height: normal;
   word-spacing: 0.2em;
-  margin-left: 15px;
-  line-height: 1.4em;
-  font-size: 1.1em;
+  margin-left: 25px;
+  line-height: 1.3em;
+  font-size: 1.2em;
   text-align:justify;
 }
 
 img{
-  width: 350px;
+  width: 400px;
+  height: 350;
   box-shadow: 3px 2px  2px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
 }
 
 figure{
+  text-align: center;
   font-size: 10px;
-  background: white;
-  width: 450px;
-  padding: 10px;
-  border:1px solid black;
-  box-shadow: 5px 5px 3px rgba(60, 0, 0, 0.7);
   font-family: cursive;
   -webkit-transform: rotate(-5deg);
   -moz-transform: rotate(-5deg);
@@ -64,36 +64,49 @@ cite{
 }
 
 a{
+  color: #fff;
+}
+
+p a{
+  color:black;
+}
+
+nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:0;
+  background: #5ed97b;
+  text-align: center;
+  font-size: 1.9em;
+  height: 50px;
+}
+
+a{
   text-decoration: none;
 }
 
 nav{
-  width: 10%;
-  float: left;
-}
-nav ul{
-  list-style: none;
-}
-nav ul li{
-  text-decoration: none;
-  margin-bottom: 5px;
+  padding-top: 0;
+  padding-bottom: 20px;
 }
 
-nav ul li:hover{
-  color: blue;
-  background-color: #C8A2C8;
-}
 
-nav ul li a{
-  color: black;
+
+nav ul li {
+  color: #fff;
+  padding-right: 50px;
+  display: inline;
 }
 
 #foto{
   text-align: center;
 }
 
-#conteudo{
-  width: 90%;
-  float: right;
+p a:hover{
+  color:#5ed97b;
+}
 
+#conteudo{
+  margin-top:100px;
 }
