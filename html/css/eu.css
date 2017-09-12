@@ -1,51 +1,58 @@
 h1{
-
     background: -webkit-linear-gradient(top,#CD853F,#CC6600);
     background: -moz-linear-gradient(top,#CD853F,#CC6600);
+    background:linear-gradient(top,#CD853F,#CC6600);
     text-align: center;
     border-radius: 15px;
     border: 1px solid black;
+    padding: 5px;
 }
-h2,h3,h4{
+
+h2,h3{
   text-align: center;
-  background:-webkit-linear-gradient(top,#CD853F,#CC6600 30%);
-  background:-moz-linear-gradient(top,#CD853F,#CC6600 30%);
-  background:linear-gradient(top,#CD853F,#CC6600 30%);
+  background:-webkit-linear-gradient(top,#CD853F,#CC6600 40%);
+  background:-moz-linear-gradient(top,#CD853F,#CC6600 40%);
+  background:linear-gradient(top,#CD853F,#CC6600 40%);
   padding-left: 15px;
   border-radius: 15px;
   border: 1px solid black;
 }
 
 body{
-  background: oldlace;
+  text-indent: 10px;
+  background: ivory;
   font: Arial;
   font-size: 16px;
-  width: 940px;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
 p {
-  text-indent: 10px;
-  line-height: 125%;
-  font-size: 115%;
+  word-spacing: 0.2em;
+  margin-left: 15px;
+  line-height: 1.4em;
+  font-size: 1.1em;
   text-align:justify;
-
 }
+
 img{
   width: 350px;
-}
-
-#foto{
-  text-align: center;
+  box-shadow: 3px 2px  2px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
 
 figure{
-  background: #FFFAFA;
+  font-size: 10px;
+  background: white;
   width: 450px;
   padding: 10px;
-  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.7);
-  -webkit-transform:rotate(-5deg);
+  border:1px solid black;
+  box-shadow: 5px 5px 3px rgba(60, 0, 0, 0.7);
+  font-family: cursive;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  transform: rotate(-5deg);
 }
 
 figure:hover{
@@ -54,4 +61,39 @@ figure:hover{
 
 cite{
   text-indent: 5px;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav{
+  width: 10%;
+  float: left;
+}
+nav ul{
+  list-style: none;
+}
+nav ul li{
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+nav ul li:hover{
+  color: blue;
+  background-color: #C8A2C8;
+}
+
+nav ul li a{
+  color: black;
+}
+
+#foto{
+  text-align: center;
+}
+
+#conteudo{
+  width: 90%;
+  float: right;
+
 }
