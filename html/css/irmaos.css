@@ -1,8 +1,7 @@
 h1{
-    background-color:#32a7e5;
+    font-size:1.9em;
     color: #fff;
-    font-family: 'Kranky',sans-serif;
-    font-size:2.0em;
+    background:#32a7e5;
     text-align: center;
     border-radius: 15px;
     border: 1px solid black;
@@ -11,11 +10,10 @@ h1{
 }
 
 h2{
-  background-color:#32a7e5;
-  color: #fff;
-  font-family: 'Kranky',sans-serif;
   font-size:1.7em;
+  color: #fff;
   text-align: center;
+  background:#32a7e5;
   padding-left: 15px;
   border-radius: 15px;
   border: 1px solid black;
@@ -23,7 +21,6 @@ h2{
 }
 
 body{
-  font-family: 'Kranky',sans-serif;
   text-indent: 10px;
   background: #fff
   font: Arial;
@@ -34,25 +31,22 @@ body{
 }
 
 p {
-  font-family: 'Roboto';
-  font-size: 1.4em;
   line-height: normal;
   word-spacing: 0.2em;
   margin-left: 25px;
   line-height: 1.3em;
+  font-size: 1.1em;
   text-align:justify;
 }
 
 img{
-
-  width: 400px;
-  height: 350;
+  width: 350px;
+  height: 300px;
   box-shadow: 3px 2px  2px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
 }
 
 figure{
-  text-align: center;
   font-size: 10px;
   font-family: cursive;
   -webkit-transform: rotate(-5deg);
@@ -83,11 +77,8 @@ nav{
   right:0;
   background: #5ed97b;
   text-align: center;
+  font-size: 1.9em;
   height: 50px;
-}
-
-nav ul li{
-  font-size: 2.5em;
 }
 
 a{
@@ -99,19 +90,25 @@ nav{
   padding-bottom: 20px;
 }
 
+
 nav ul li {
   color: #fff;
   padding-right: 50px;
   display: inline;
 }
 
-#foto{
-  text-align: center;
+#foto-marden{
 }
 
-figcaption{
-  font-family: 'Great Vibes',cursive;
-  font-size: 1.8em;
+#foto-monica{
+}
+
+#foto-sylvania{
+}
+
+#fotos-irmaos{
+  float: left;
+  display: inline;
 }
 
 p a:hover{
@@ -119,5 +116,4 @@ p a:hover{
 }
 
 #conteudo{
-  margin-top:100px;
 }
