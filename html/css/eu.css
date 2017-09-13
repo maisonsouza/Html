@@ -6,7 +6,7 @@ h1{
     border-radius: 15px;
     border: 1px solid black;
     padding: 5px;
-    word-spacing: 1em;
+    word-spacing: 0.7em;
 }
 
 h2{
@@ -17,7 +17,7 @@ h2{
   padding-left: 15px;
   border-radius: 15px;
   border: 1px solid black;
-    word-spacing: 1em;
+  word-spacing: 0,7em;
 }
 
 body{
@@ -25,7 +25,7 @@ body{
   background: #fff
   font: Arial;
   font-size: 16px;
-  width: 70%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -35,7 +35,7 @@ p {
   word-spacing: 0.2em;
   margin-left: 25px;
   line-height: 1.3em;
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-align:justify;
 }
 
