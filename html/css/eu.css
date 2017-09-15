@@ -11,6 +11,10 @@ body{
   margin-right: auto;
 }
 
+aside nav h1{
+  text-transform: uppercase;
+}
+
 nav{
   position: absolute;
   top:0;
@@ -34,12 +38,26 @@ nav h1{
 nav ul{
   width: 100%;
   font-family: 'Kranky',sans-serif;
-  padding: 2px;
+  padding: 0.2rem;
   background: #5ed97b;
   text-align: center;
   font-size: 1.0em;
   word-spacing: 0.7em;
   letter-spacing: 0.15em;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 1.7em;
+  color: #fff;
+  padding-right: 1.0rem;
+  padding-bottom: 0.2rem;
+}
+
+
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
 }
 
 nav ul li a:hover{
@@ -51,56 +69,53 @@ main h1{
     background-color:#32a7e5;
     color: #fff;
     font-family: 'Kranky',sans-serif;
-    font-size:2.1em;
+    font-size:2.0em;
     text-align: center;
-    border-radius: 15px;
-    border: 1px solid black;
-    padding: 5px;
+    border-radius: 0.4rem;
+    border: 0.1rem solid black;
+    padding: 0.2rem;
     word-spacing: 0.7em;
+    letter-spacing: 0.1rem;
 }
 
 #conteudo h2{
   background-color:#32a7e5;
   color: #fff;
   font-family: 'Kranky',sans-serif;
-  font-size:1.7em;
+  font-size:1.6em;
   text-align: center;
-  padding: 5px;
-  border-radius: 15px;
-  border: 1px solid black;
+  padding: 0.2rem;
+  border-radius: 0.4rem;
+  border: 0.1rem solid black;
   word-spacing: 0,7em;
+  letter-spacing: 0.1rem;
 }
 
-
-
-p {
-  padding-top: 5px;
-  padding-bottom: 5px;
+#conteudo p {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
   font-family: 'Roboto';
-  font-size: 1.2em;
+  font-size: 1.1em;
   word-spacing: 0.2em;
-  margin-left: 40px;
+  margin-left: 1.1rem;
   line-height: 1.5em;
   text-align:justify;
 }
 
 
 img{
-
-  width: 400px;
-  height: 300px;
-  box-shadow: 3px 2px  2px rgba(0, 0, 0, 0.5);
-  border-radius: 15px;
+  width: 18rem;
+  height: 15rem;
+  box-shadow: 0.3rem 0.2rem  0.2rem rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
 
 }
 
 figure{
-  position: relative;
-  margin-top: 120px;
-  margin-bottom: 15px;
+  margin-top: 6rem;
+  margin-bottom:1rem;
   text-align: center;
-  font-size: 10px;
-  font-family: cursive;
+  font-size: 0.7em;
   -webkit-transform: rotate(-5deg);
   -moz-transform: rotate(-5deg);
   transform: rotate(-5deg);
@@ -110,84 +125,46 @@ figure:hover{
   -webkit-transform:rotate(5deg);
 }
 
-cite{
-  text-indent: 5px;
-}
-
-a{
-  color: #fff;
-}
-
-p a{
-  color:black;
-}
-
-
-
-
 #conteudo a{
+  color:black;
   text-decoration: none;
 }
 
-nav a{
-    text-decoration: none;
-}
-
-nav ul li {
-  font-size: 1.7em;
-  color: #fff;
-  padding-right: 40px;
-  display: inline-block;
-  padding-bottom: 5px;
-}
-
-
 figcaption{
   font-family: 'Great Vibes',cursive;
-  font-size: 1.8em;
+  font-size: 1.7em;
 }
 
-p a:hover{
+#conteudo a:hover{
   color:#5ed97b;
 }
 
 footer li{
   display: inline-block;
-  margin: 10px;
+  margin: 0.1rem;
 }
 
 footer img{
   text-align: center;
-  width: 50px;
-  height: 40px;
+  width: 2rem;
+  height: 2rem;
 }
 
 footer h2{
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-    position: fixed;
-  padding: 10px;
-  display: inline-block;
-  width: 100%;
-  height: 0.9em;
+  padding: 0.4rem;
+  height: 0.4em;
   background: rgb(253, 193, 74);
-  color: black;
-    text-align: center;
-}
-
-aside nav h1{
-  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0.02rem;
 }
 
 #icones a{
-  padding: 5px;
-
+  padding: 0.2rem;
   color: black;
   background-image: url(../images/github.png);
-}
-
-footer li{
-   margin-bottom: 40px;
-
 }
