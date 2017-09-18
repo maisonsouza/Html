@@ -1,14 +1,14 @@
 body{
   background: #fff;
-  font-size: 0.9em;
+  font-size: 1.0em;
 }
 
 .titulo-principal{
     display: inline-block;
+    width: 100%;
     font-family: 'Kranky',sans-serif;
     background-color:#32a7e5;
     color: #fff;
-    width: 100%;
     font-size:2.5em;
     padding-top: 0.4rem;
     word-spacing: 0.7em;
@@ -17,18 +17,16 @@ body{
     text-transform: uppercase;
 }
 
-
-nav ul{
+nav{
   font-family: 'Kranky',sans-serif;
-width: 100%;
   padding: 0.2rem;
   background: #5ed97b;
   text-align: center;
   font-size: 1.0em;
   word-spacing: 0.7em;
   letter-spacing: 0.15em;
-  transform: scale(1.1);
 }
+
 
 nav ul li {
   display: inline-block;
@@ -65,6 +63,26 @@ main h1{
     letter-spacing: 0.1rem;
 }
 
+img{
+  width: 18rem;
+  height: 15rem;
+  box-shadow: 0.3rem 0.2rem  0.2rem rgba(0, 0, 0, 0.5);
+  border-radius: 7.5rem;
+}
+
+figure{
+  margin-top: 2rem;
+  margin-bottom:1rem;
+  text-align: center;
+  font-size: 0.7em;
+  transform: rotate(-3deg);
+}
+
+figure:hover{
+    transform: rotate(3deg);
+    transform: scale(1.1);
+}
+
 #conteudo{
     width: 70%;
   margin-left: auto;
@@ -96,25 +114,7 @@ main h1{
 }
 
 
-img{
-  width: 18rem;
-  height: 15rem;
-  box-shadow: 0.3rem 0.2rem  0.2rem rgba(0, 0, 0, 0.5);
-  border-radius: 7.5rem;
-}
 
-figure{
-  margin-top: 6rem;
-  margin-bottom:1rem;
-  text-align: center;
-  font-size: 0.7em;
-  transform: rotate(-3deg);
-}
-
-figure:hover{
-    transform: rotate(3deg);
-    transform: scale(1.1);
-}
 
 #conteudo a{
   color:black;
@@ -132,7 +132,7 @@ figcaption{
 
 
 footer ul {
-    margin: 20px;
+    margin: 2rem;;
 }
 
 footer ul li{
@@ -156,7 +156,7 @@ footer h2{
   left: 0;
   right: 0;
   padding: 0.4rem;
-  height: 0.4em;
+  height: 0.8em;
   background: rgb(253, 193, 74);
   color: #fff;
   text-align: center;
