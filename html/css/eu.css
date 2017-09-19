@@ -71,7 +71,7 @@ img{
 }
 
 figure{
-  margin-top: 2rem;
+  margin-top: 1.1rem;
   margin-bottom:1rem;
   text-align: center;
   font-size: 0.7em;
@@ -105,16 +105,13 @@ figure:hover{
 #conteudo p {
   padding-top: 0.2rem;
   font-family: 'Roboto';
-  font-size: 1.1em;
+  font-size: 0.9em;
   word-spacing: 0.2em;
   margin-left: 1.5rem;
   margin-bottom: 0.4rem;
-  line-height: 1.5em;
+  line-height: 1.4em;
   text-align:justify;
 }
-
-
-
 
 #conteudo a{
   color:black;
@@ -122,8 +119,9 @@ figure:hover{
 }
 
 figcaption{
+  margin: 0.5em;
   font-family: 'Great Vibes',cursive;
-  font-size: 1.7em;
+  font-size: 1.8em;
 }
 
 #conteudo a:hover{
