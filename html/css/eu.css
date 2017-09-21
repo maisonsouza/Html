@@ -1,6 +1,7 @@
 body{
   background: #fff;
   font-size: 1.0em;
+  background-image: url(../images/bg-login.png);
 }
 
 .titulo-principal{
@@ -29,6 +30,7 @@ nav{
 
 
 nav ul li {
+
   display: inline-block;
   font-size: 1.7em;
   color: #fff;
@@ -42,6 +44,7 @@ nav ul li:hover{
 }
 
 nav ul li a{
+  
   color: #fff;
   text-decoration: none;
 }
@@ -84,7 +87,8 @@ figure:hover{
 }
 
 #conteudo{
-    width: 70%;
+  opacity: 0.8;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -103,6 +107,7 @@ figure:hover{
 }
 
 #conteudo p {
+  color: #fff;
   padding-top: 0.2rem;
   font-family: 'Roboto';
   font-size: 1.1em;
@@ -114,7 +119,7 @@ figure:hover{
 }
 
 #conteudo a{
-  color:black;
+    color: #fff;
   text-decoration: none;
 }
 
