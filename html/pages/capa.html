@@ -19,21 +19,42 @@
   <body>
        <h1 class="titulo-principal">Família Galvão</h1>
       <!--cONTEUDO-->
-      <p> Todas informações da família em único lugar </p>
-       <p> Cadastre-se </p>
+      <p> Todas informações da família em único lugar. </p>
+
       <form>
+        <fieldset id='cadastro'>
+          <legend> Crie sua conta: </legend>
 
-        <label for="nome" > Nome
-          <input id="nome" placeholder="Seu nome aqui" type="text">
+          <label for="nome"> Nome:
+            <input id="nome" type="text" placeholder="Seu nome aqui" autofocus>
+          </label>
+        </br>
+          <label for="email"> Email:
+            <input id="email" type="email" placeholder="Seu email" required>
+          </label>
+          </br>
+          <label for="senha"> Senha:
+            <input id="email" type="email" placeholder="Sua senha" required>
+          </label>
+          </br>
+          <button type="submit">Cadastrar</button>
+
+      </fieldset>
+
+      <fieldset id="login">
+        <legend> Entre com sua conta: </legend>
+
+        <label for="nome2" > Login:
+          <input id="nome" type="text" placeholder="Seu nome aqui" >
         </label>
-
-        <label for="email"> Email
-          <input id="email" placeholder="Seu email" type="email" required>
+      </br>
+        <label for="email"> Senha:
+          <input id="email" type="email" placeholder="Sua senha" required>
         </label>
+        </br>
+        <button type="submit"> Login </button>
 
-
-        <input type="submit" value="Enviar"/>
-
+    </fieldset>
       </form>
 
   </body>

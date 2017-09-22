@@ -1,7 +1,7 @@
 body{
   background: #fff;
   font-size: 1.0em;
-  background-image: url(../images/bg-login.png);
+background-image: url(../images/bg_perfis.png);
 }
 
 .titulo-principal{
@@ -44,7 +44,7 @@ nav ul li:hover{
 }
 
 nav ul li a{
-  
+
   color: #fff;
   text-decoration: none;
 }
@@ -87,6 +87,7 @@ figure:hover{
 }
 
 #conteudo{
+
   opacity: 0.8;
   width: 70%;
   margin-left: auto;
