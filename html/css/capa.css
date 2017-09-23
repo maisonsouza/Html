@@ -8,7 +8,7 @@ body{
     font-family: 'Great Vibes',cursive;
     color: #fff;
     font-size:7.5em;
-    margin-top: 5.5rem;
+    margin-top: 3rem;
     word-spacing: 0.3em;
     letter-spacing: 0.15em;
     text-align: center;
@@ -24,10 +24,8 @@ p{
 }
 
 form{
-
   text-align: center;
-  margin-top:1em;
-  font-size:2.5em;
+  font-size:2.1em;
   color: #fff;
   margin-left: 2.5em;
 }
@@ -38,8 +36,9 @@ text-align: center;
   font-family: 'Great Vibes',cursive;
   color:#fff;
 }
+
 label{
-  height: 2rem;
+  height: 1.8rem;
   margin-bottom: 1rem;
 }
 
@@ -52,9 +51,14 @@ input{
   margin-bottom: 1rem;
 }
 
+#nome{
+width: calc(100%-2em);
+left:2em;
+}
+
 button{
   padding: 0.5rem;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-family: 'Great Vibes', cursive;
   border-radius: 1.5rem;
   word-spacing: 0.3em;
@@ -64,31 +68,40 @@ button{
   height: 4rem;
   color: #fff;
   background-color: #f1634b;
+  -webkit-animation: quica 2s infinite;
+  animation: quica 2s infinite ease-in ease-out;
+  position: relative;
+  animation-direction: alternate;
+}
+
+button:hover{
+  animation-play-state: paused;
 }
 
 #cadastro{
   margin-top: 3rem;
-  margin-left:20rem;
+  margin-left:5rem;
   float: left;
 }
 
 #login{
-    margin-top: 3rem;
   float: right;
-  margin-right:20rem;
-}
-label [for="nome"]::after{
-position: relative;
+  margin-top: 3rem;
+  margin-right:10rem;
 }
 
-label [for="nome"]:before{
-  content: "";
-  background-image: url(../images/user.jpg);
-  background-size: 50% 50%;
-  width: 2em;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-position: center;
-
+-webkit-@keyframes quica {
+  from{
+    top:0;
+  }
+  to {
+      top:0.8em;
+  }
+}
+@keyframes quica {
+  from{
+    top:0;
+  }to{
+top:0.8em;
+  }
 }
