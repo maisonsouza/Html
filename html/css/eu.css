@@ -1,9 +1,10 @@
 body{
   background: #fff;
   font-size: 1.0em;
-  background-image: url(../images/bg_perfis.png);
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url(../images/bg-login.png);
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
 }
 
 .titulo-principal{
@@ -23,6 +24,7 @@ body{
 }
 
 nav{
+
   font-family: 'Kranky',sans-serif;
   padding: 0.2rem;
   background: #5ed97b;
@@ -32,6 +34,12 @@ nav{
   letter-spacing: 0.15em;
 }
 
+nav ul{
+
+  margin-left: 5rem;
+    margin-right: 5rem;
+}
+
 
 nav ul li {
 
@@ -39,6 +47,7 @@ nav ul li {
   font-size: 1.7em;
   color: #fff;
   padding-right: 1.0rem;
+  padding-top: 0.4rem;
   padding-bottom: 0.2rem;
 
 }
@@ -51,6 +60,7 @@ nav ul li a{
 
   color: #fff;
   text-decoration: none;
+  padding: 1rem;
 }
 
 nav ul li a:hover{
@@ -77,6 +87,10 @@ img{
   border-radius: 7.5rem;
   transform: rotate(-8deg);
   transition: transform 1.5s linear, box-shadow 1s ease-in;
+  position: relative;
+  -webkit-animation: quica 2s infinite ease-out;
+  animation: quica 2s infinite ease-in ease-out;
+  animation-direction: alternate;
 }
 
 figure{
@@ -91,6 +105,7 @@ img:hover{
   transform: rotate(8deg);
   transform: scale(1.1);
   box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.7);
+  animation-play-state: paused;
 }
 
 
@@ -115,16 +130,16 @@ img:hover{
 }
 
 #conteudo p {
-  color: #000;
+  color: #fff;
   padding-top: 0.2rem;
   font-family: 'Roboto';
-  font-size: 1em;
+  font-size: 1.1em;
   word-spacing: 0.2em;
   margin-left: 1.5rem;
   margin-bottom: 0.4rem;
   line-height: 1.4em;
   text-align:justify;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 #conteudo a{
@@ -199,4 +214,21 @@ opacity: 0;
 100%{
 opacity: 1;
 }
+}
+
+-webkit-@keyframes quica {
+  from{
+    top:0;
+  }
+  to {
+      top:0.9em;
+  }
+}
+@keyframes quica {
+  from{
+    top:0;
+  }
+  to{
+    top:0.9em;
+  }
 }

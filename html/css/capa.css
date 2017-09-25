@@ -1,5 +1,8 @@
 body{
   background-image: url(../images/bg-login.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .titulo-principal{
@@ -24,6 +27,7 @@ p{
 }
 
 form{
+  margin-top: 3rem;
   text-align: center;
   font-size:2.1em;
   color: #fff;
