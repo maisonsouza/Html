@@ -27,11 +27,18 @@ p{
 }
 
 form{
+
   margin-top: 3rem;
   text-align: center;
   font-size:2.1em;
   color: #fff;
   margin-left: 2.5em;
+  margin-right: 2.5rem;
+}
+
+.box{
+  display: flex;
+  justify-content:space-between;
 }
 
 
@@ -82,17 +89,6 @@ button:hover{
   animation-play-state: paused;
 }
 
-#cadastro{
-  margin-top: 3rem;
-  margin-left:5rem;
-  float: left;
-}
-
-#login{
-  float: right;
-  margin-top: 3rem;
-  margin-right:10rem;
-}
 
 -webkit-@keyframes quica {
   from{
