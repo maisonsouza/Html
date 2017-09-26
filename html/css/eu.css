@@ -29,24 +29,22 @@ nav{
   justify-content: center;
   flex: 1;
   font-family: 'Kranky',sans-serif;
-  padding: 0.2rem;
   background: #5ed97b;
   text-align: center;
-  font-size: 1.0em;
-  word-spacing: 0.7em;
-  letter-spacing: 0.15em;
+  font-size: 0.9rem;
+  word-spacing: 0.6em;
+  letter-spacing: 0.10em;
 }
 
 nav ul{
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 
 nav ul li {
-
   display: inline-block;
-  font-size: 1.7em;
+  font-size: 1.6em;
   color: #fff;
   padding-right: 1.0rem;
   padding-top: 0.4rem;
@@ -55,14 +53,13 @@ nav ul li {
 }
 
 nav ul li:hover{
-    transform:scale(1.5);
+  transform:scale(1.5);
 }
 
 nav ul li a{
-
   color: #fff;
   text-decoration: none;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 nav ul li a:hover{
@@ -96,11 +93,10 @@ img{
 }
 
 figure{
-  margin-top: 1.1rem;
+  margin-top: 1rem;
   margin-bottom:1rem;
   text-align: center;
   font-size: 0.7em;
-
 }
 
 img:hover{
@@ -109,7 +105,6 @@ img:hover{
   box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.7);
   animation-play-state: paused;
 }
-
 
 #conteudo{
   opacity: 0.8;
@@ -135,7 +130,7 @@ img:hover{
   color: #fff;
   padding-top: 0.2rem;
   font-family: 'Roboto';
-  font-size: 1.1em;
+  font-size: 1rem;
   word-spacing: 0.2em;
   margin-left: 1.5rem;
   margin-bottom: 0.4rem;
@@ -171,7 +166,6 @@ footer ul li{
 
 footer li{
   display: inline-block;
-
 }
 
 footer img{

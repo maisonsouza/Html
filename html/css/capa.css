@@ -10,8 +10,8 @@ body{
     width: 100%;
     font-family: 'Great Vibes',cursive;
     color: #fff;
-    font-size:7.5em;
-    margin-top: 3rem;
+    font-size:8rem;
+    margin-top: 2rem;
     word-spacing: 0.3em;
     letter-spacing: 0.15em;
     text-align: center;
@@ -19,33 +19,38 @@ body{
 }
 
 p{
-  margin-top: 1em;
+  font-family: 'Kranky',cursive;
+  margin-top: 1rem;
+  letter-spacing: 0.2rem;
   text-align: center;
-  font-size:2.5em;
+  font-size:3rem;
   color: #fff;
-  padding: 0.2em;
+  padding: 0.1em;
 }
 
 form{
-
   margin-top: 3rem;
   text-align: center;
   font-size:2.1em;
   color: #fff;
-  margin-left: 2.5em;
-  margin-right: 2.5rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 
 .box{
   display: flex;
+  align-items: flex-end;
+  flex: 1;
   justify-content:space-between;
 }
 
 
 legend{
-text-align: center;
+  text-align: center;
   font-family: 'Great Vibes',cursive;
   color:#fff;
+  letter-spacing: 0.4rem;
+  margin-bottom: 1rem;
 }
 
 label{
@@ -58,7 +63,7 @@ input{
   text-align: center;
   border-radius: 0.5rem;
   height: 2rem;
-  width:20rem;
+  width:25rem;
   margin-bottom: 1rem;
 }
 
