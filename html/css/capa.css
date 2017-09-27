@@ -1,56 +1,59 @@
 body{
   background-image: url(../images/bg-login.png);
   background-size: cover;
-  background-position: center;
+  background-position:top;
   background-repeat: no-repeat;
 }
 
 .titulo-principal{
-    display: inline-block;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     font-family: 'Great Vibes',cursive;
-    color: #fff;
-    font-size:8rem;
+    color:#fff;
+    font-size:7.5rem;
     margin-top: 2rem;
-    word-spacing: 0.3em;
-    letter-spacing: 0.15em;
-    text-align: center;
-    font-weight: lighter;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.10em;
+    font-weight:lighter;
 }
 
 p{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   font-family: 'Kranky',cursive;
   margin-top: 1rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
   text-align: center;
   font-size:3rem;
   color: #fff;
-  padding: 0.1em;
+  padding: 0.1rem;
 }
 
 form{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
   margin-top: 3rem;
   text-align: center;
-  font-size:2.1em;
+  font-size:1.6rem;
   color: #fff;
-  margin-left: 8rem;
-  margin-right: 8rem;
+  flex: 1;
 }
 
 .box{
   display: flex;
-  align-items: flex-end;
-  flex: 1;
-  justify-content:space-between;
+  align-items: center;
+  justify-content: space-around;
 }
-
 
 legend{
   text-align: center;
   font-family: 'Great Vibes',cursive;
   color:#fff;
-  letter-spacing: 0.4rem;
-  margin-bottom: 1rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 2rem;
 }
 
 label{
@@ -62,30 +65,25 @@ input{
   padding: 0px;
   text-align: center;
   border-radius: 0.5rem;
-  height: 2rem;
+  height: 1.8rem;
   width:25rem;
   margin-bottom: 1rem;
 }
 
-#nome{
-width: calc(100%-2em);
-left:2em;
-}
-
 button{
-  padding: 0.5rem;
-  font-size: 2.2rem;
-  font-family: 'Great Vibes', cursive;
+  padding: 0.3rem;
+  font-size: 1.8rem;
+  font-family: 'Kranky', cursive;
   border-radius: 1.5rem;
-  word-spacing: 0.3em;
-  letter-spacing: 0.1em;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
   margin-top: 1rem;
-  width: 12rem;
-  height: 4rem;
+  width: 11rem;
+  height: 3.5rem;
   color: #fff;
   background-color: #f1634b;
-  -webkit-animation: quica 2s infinite;
-  animation: quica 2s infinite ease-in ease-out;
+  -webkit-animation: quica 2.5s infinite;
+  animation: quica 2.5s infinite ease-in ease-out;
   position: relative;
   animation-direction: alternate;
 }
@@ -103,6 +101,7 @@ button:hover{
       top:0.8em;
   }
 }
+
 @keyframes quica {
   from{
     top:0;
