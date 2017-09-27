@@ -42,11 +42,6 @@ form{
   flex: 1;
 }
 
-.box{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
 
 legend{
   text-align: center;
@@ -88,6 +83,17 @@ button{
   animation-direction: alternate;
 }
 
+.camposdeentradacadastro{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.camposdeentradalogin{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 button:hover{
   animation-play-state: paused;
 }
