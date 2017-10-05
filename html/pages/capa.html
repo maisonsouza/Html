@@ -3,6 +3,7 @@
 <head>
   <!--Meta informações-->
   <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--Links-->
   <link rel="stylesheet" type="text/css" href="../css/reset.css"/>
   <link rel="stylesheet" type="text/css" href="../css/capa.css"/>
@@ -19,11 +20,10 @@
 <body>
   <h1 class="titulo-principal">Família Galvão</h1>
   <!--cONTEUDO-->
-  <p> Todas as informações da família em um único lugar. </p>
+  <p class="introducao"> Todas as informações da família em um único lugar. </p>
 
   <form class="box">
-    <fieldset id='cadastro'>
-      <div class="camposdeentradacadastro">
+    <fieldset class='cadastro'>
       <legend> Crie sua conta: </legend>
 
         <label for="nome"> Nome:
@@ -33,25 +33,23 @@
           <input id="email" type="email" placeholder="Seu email" required>
         </label>
         <label for="senha"> Senha:
-          <input id="email" type="email" placeholder="Sua senha" required>
+          <input id="email" type="password" placeholder="Sua senha" required>
         </label>
-      </div>
-      <button type="submit">Cadastrar</button>
+        <button type="submit">Cadastrar</button>
+
 
     </fieldset>
 
-    <fieldset id="login">
-      <div class="camposdeentradalogin">
+    <fieldset class="login">
       <legend> Entre com sua conta: </legend>
 
         <label for="login" > Login:
           <input id="mome_login" type="text" placeholder="Seu login aqui" >
         </label>
-        <label for="email"> Senha:
-          <input id="email" type="email" placeholder="Sua senha" required>
+        <label for="senha"> Senha:
+          <input id="senha" type="password" placeholder="Sua senha" required>
         </label><s></s>
         <button type="submit"> Login </button>
-      </div>
 
     </fieldset>
 
