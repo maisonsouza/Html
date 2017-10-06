@@ -1,12 +1,10 @@
 html{
   background-image: url(../images/bg-login.png);
   background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 body{
-  font-size: 1.0em;
+  font-size: 1em;
 }
 
 .titulo-principal{
@@ -16,12 +14,15 @@ body{
     background-color:#32a7e5;
     color: #fff;
     font-size:4em;
-    padding-top: 0.3em;
-    word-spacing: 0.7em;
-    letter-spacing: 0.15em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin-top: 0.04em;
+    margin-bottom: 0.04em;
+    word-spacing: 0.5em;
+    letter-spacing: 0.1em;
     text-align: center;
     -webkit-animation: aparece 2s ease-in;
-    animation: aparece 3s ease-in;
+     animation: aparece 3s ease-in;
 }
 
 nav{
@@ -31,25 +32,26 @@ nav{
   font-family: 'Kranky',sans-serif;
   background: #5ed97b;
   text-align: center;
-  font-size: 1em;
+  font-size: 1.5em;
+  width: 100%;
   word-spacing: 0.2em;
-  letter-spacing: 0.10em;
+  letter-spacing: 0.1em;
 }
 
 nav ul{
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 
 nav ul li {
   display: inline-block;
-  font-size: 1.6em;
+  font-size: 1.4em;
   color: #fff;
-  padding-right: 1.0rem;
-  padding-top: 0.4rem;
-  padding-bottom: 0.2rem;
-
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.5em;
 }
 
 nav ul li:hover{
@@ -59,7 +61,7 @@ nav ul li:hover{
 nav ul li a{
   color: #fff;
   text-decoration: none;
-  padding: 0.5rem;
+  padding: 0.3em;
 }
 
 nav ul li a:hover{
