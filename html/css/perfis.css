@@ -28,18 +28,17 @@ nav{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 1;
   font-family: 'Kranky',sans-serif;
   background: #5ed97b;
   text-align: center;
-  font-size: 1.2em;
-  word-spacing: 0.6em;
+  font-size: 1em;
+  word-spacing: 0.2em;
   letter-spacing: 0.10em;
 }
 
 nav ul{
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 
