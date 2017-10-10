@@ -20,10 +20,10 @@ html{
 }
 
 nav{
+  font-size: 150%;
   border: 0.05em solid black;
   font-family: 'Kranky',sans-serif;
   background: #fdc14a;
-  font-size: 1.8em;
   letter-spacing: 0.1em;
 }
 
@@ -32,11 +32,13 @@ nav ul{
   margin-right: 0.2em;
   text-align: center;
   padding: 0.1em;
+
 }
 
 nav ul li {
   display: inline-block;
   padding: 0.1em;
+
 }
 
 nav ul li:hover{
@@ -47,6 +49,7 @@ nav ul li a{
   color: #fff;
   text-decoration: none;
   margin-right: 1em;
+  font-size: 125%;
 }
 
 nav ul li a:hover{
@@ -55,6 +58,7 @@ nav ul li a:hover{
 
 img{
   width: 11%;
+  max-width: 100%;
   box-shadow: 0.3em 0.2em 0.2em rgba(0, 0, 0, 0.9);
   border-radius: 50%;
   border: 0.5em double #dddfe2;
@@ -109,13 +113,13 @@ img:hover{
   background-color:#32a7e5;
   border: 0.05em solid black;
   border-radius: 0.5em;
-  font-size: 175%;
+  font-size: 150%;
 }
 
 #conteudo p {
   color: #fff;
   font-family: 'Roboto';
-  font-size: 115%;
+  font-size: 100%;
   word-spacing: 0.2em;
   margin-left: 1.5em;
   margin-bottom: 0.5em;
@@ -146,16 +150,16 @@ footer li{
 }
 
 footer ul li{
-  margin-bottom: 2em;
-  margin-right: 2em;
+  margin-bottom: 1em;
+  margin-right: 1em;
 
 }
 
 footer img{
   text-align: center;
   border: 0.1em solid #dddfe2;
-  width: 2em;
-  height: 2em;
+  width: 3em;
+  height: 3em;
 }
 
 footer h2{
